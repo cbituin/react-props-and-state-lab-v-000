@@ -1,19 +1,24 @@
-import React from 'react'
+import React from 'react';
 
-import Filters from './Filters'
-import PetBrowser from './PetBrowser'
+import Filters from './Filters';
+import PetBrowser from './PetBrowser';
 
 class App extends React.Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       pets: [],
       filters: {
         type: 'all'
       }
-    }
+    };
   }
+  
+  onChangeType = a => {
+   
+ }
+
 
   render() {
     return (
